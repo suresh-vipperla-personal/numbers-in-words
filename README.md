@@ -9,17 +9,6 @@ A utility to spawn fresh Gradle/Scala projects
 - scalatest
 - log4j2
 
-### How to use
-
-1. Clone this project into a directory of your choosing.
-2. Run the starter script and respond to the prompts:
-```sh
-./starter-cli/starter.sh
-```
-The starter will bootstrap a fresh project in a new local directory.
-
-3. Liftoff 🚀
-
 
 ### Building
 
@@ -33,7 +22,8 @@ bundling can be had by running the following `./gradlew` tasks:
 ./gradlew clean shadowjar
 
 # Run the project
-./gradlew clean run
+./gradlew clean shadowjar
+java -jar build/libs/scala-numbers-in-words-all.jar
 ```
 
 ### IDE Tips 

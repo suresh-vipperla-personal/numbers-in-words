@@ -9,11 +9,11 @@ plugins {
 }
 
 // inform the 'application' plugin where the app entry point is located
-mainClassName = "com.starter.Main"
+mainClassName = "com.starter.codingtest.Main"
 
 shadowJar {
     // creates a fat jar at build/libs/scala-gradle-starter-all.jar
-    baseName = "scala-gradle-starter"
+    baseName = "scala-numbers-in-words"
 }
 
 repositories {
