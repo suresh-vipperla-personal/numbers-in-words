@@ -25,23 +25,23 @@ class NumbersToWordsTest extends FlatSpec with Matchers {
   }
 
   it should "correctly print out a billion " in {
-    "one billion" should equal(SpeakNumbers.numbersToWords(1000000000, printZero = false))
+    "one billion " should equal(SpeakNumbers.numbersToWords(1000000000, printZero = false))
   }
 
   it should "correctly print out a million " in {
-    "one million" should equal(SpeakNumbers.numbersToWords(1000000, printZero = false))
+    "one million " should equal(SpeakNumbers.numbersToWords(1000000, printZero = false))
   }
 
   it should "correctly print out a thousand " in {
-    "one million" should equal(SpeakNumbers.numbersToWords(1000, printZero = false))
+    "one thousand " should equal(SpeakNumbers.numbersToWords(1000, printZero = false))
   }
 
   it should "correctly print out a hundred " in {
-    "one hundred" should equal(SpeakNumbers.numbersToWords(100, printZero = false))
+    "one hundred " should equal(SpeakNumbers.numbersToWords(100, printZero = false))
   }
 
   it should "correctly print out a ten " in {
-    "ten" should equal(SpeakNumbers.numbersToWords(100, printZero = false))
+    "ten" should equal(SpeakNumbers.numbersToWords(10, printZero = false))
   }
 
   it should "correctly print out a number less than ten " in {
