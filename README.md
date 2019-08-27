@@ -1,7 +1,4 @@
-# gradle + scala project starter
-![travis status](https://travis-ci.com/lombardo-chcg/scala-gradle-starter.svg?branch=master)
-
-A utility to spawn fresh Gradle/Scala projects
+# printing numbers in words
 
 - scala 2.12.8
 - gradle wrapper 5.4.1
