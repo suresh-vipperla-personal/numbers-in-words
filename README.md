@@ -1,4 +1,4 @@
-# printing numbers in words
+# Printing numbers in words using:
 
 - scala 2.12.8
 - gradle wrapper 5.4.1
